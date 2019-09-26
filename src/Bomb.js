@@ -5,7 +5,7 @@ export default class Bomb extends Component {
 
   render() {
     return (
-      'I am on slide <CURRENT_SLIDE>'
+      '<SECONDS_LEFT> seconds left before I go boom!'
     )
   }
 }
