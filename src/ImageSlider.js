@@ -6,7 +6,7 @@ export default class ImageSlider extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      color: this.props.value
+      currentSlideIndex: 0
     }
   }
 
